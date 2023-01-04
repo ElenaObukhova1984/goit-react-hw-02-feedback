@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FeedbackContainer = styled.div`
 
 display:flex;
-
+justify-content:center;
 padding-top: 20px;
 margin-left: auto;
 margin-right: auto;

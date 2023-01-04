@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { StatisticsTitle,StatisticsList,StatisticsItem,StatisticFeedback } from './Statistics.styled'; 
 
-export const Statistics = ({ title, good, neutral, bad,total, positivePercentage })=>{
+export const Statistics = ({ title, good, neutral, bad, total, positivePercentage })=>{
     return (
         <div>
             <StatisticsTitle>{title}</StatisticsTitle>
@@ -38,6 +38,5 @@ Statistics.propTypes = {
     bad: PropTypes.number.isRequired,
     total: PropTypes.number.isRequired,
     positivePercentage: PropTypes.number.isRequired,
-  
 }
 
